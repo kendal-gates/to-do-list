@@ -129,7 +129,7 @@ function getTodos(){
   const completedButton = document.createElement("button");
   completedButton.innerHTML = '<i class="fas fa-check"></i>';
   completedButton.classList.add("complete-btn");
-  todoDiv.appendChild(completedButton);
+  todoDiv.appendChild(completedButton); 
 
   //Create Trash button, append to todo div
   const trashButton = document.createElement("button");
